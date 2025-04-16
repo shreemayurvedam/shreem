@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHREEM AYURVEDAM</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f4eb;
+      color: #3e3e3e;
+    }
+    header {
+      background-color: #6b8e23;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 200px;
+      margin-bottom: 10px;
+    }
+    nav {
+      background-color: #a3b18a;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .services, .contact, .doctor, .appointment {
+      background-color: #fff;
+      margin: 20px auto;
+      max-width: 800px;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      background-color: #6b8e23;
+      color: white;
+      padding: 15px;
+    }
+    input, textarea, button {
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: #6b8e23;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="SHREEM AYURVEDAM Logo">
+    <h1>SHREEM AYURVEDAM</h1>
+    <p>Holistic Healing through Ayurveda</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#doctor">Doctor</a>
+    <a href="#contact">Contact</a>
+    <a href="#appointment">Book Appointment</a>
+  </nav>
+
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Panchkarma</li>
+      <li>Viddhakarma</li>
+      <li>Agnikarma</li>
+      <li>Kshar Sutra</li>
+    </ul>
+  </section>
+
+  <section class="doctor" id="doctor">
+    <h2>About Dr. Aarti Verma</h2>
+    <p><strong>Degrees:</strong> B.A.M.S., M.Sc., C.K.S.</p>
+    <p><strong>Experience:</strong> 15+ years in Ayurvedic treatment and therapies.</p>
+    <p>Specialized in treating: obesity, infertility (male and female), ADHD, autism, OCD, PCOD, gynecological issues, diabetes, weight gain, weight loss, skin diseases, typhoid, and more.</p>
+    <p>Dedicated to providing natural and holistic care to improve your well-being.</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Location:</strong> Sector 1, Rohtak, Haryana, India</p>
+    <p><strong>Email:</strong> shreemayurvedam@gmail.com</p>
+    <p><strong>Phone:</strong> 8950497931</p>
+    <p><strong>Hours:</strong> Sunday to Friday | <em>Closed on Saturday</em></p>
+  </section>
+
+  <section class="appointment" id="appointment">
+    <h2>Book an Appointment</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" name="phone" required />
+
+      <label for="date">Preferred Date:</label>
+      <input type="date" id="date" name="date" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 SHREEM AYURVEDAM. All rights reserved.
+  </footer>
+</body>
+</html>
